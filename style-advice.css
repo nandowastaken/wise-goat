@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.main-text {
+    padding: 20px;
+}
+
+.title {
+    color: #72005F;
+    font-size: 45px;
+}
+
+.subtitle {
+    color: #BAA193;
+    font-size: 23px;
+}
+
+.advice-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: #dbd6db;
+    margin: auto 20%;
+    padding: 60px 400px;
+    gap: 100px;
+    
+}
+
+.advice-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+#advice-paragraph {
+    font-size: 30px;
+    color: #72005F;
+    font-weight: 800;
+    overflow: break-word;
+}
+
+#author {
+    font-size: 25px;
+    color: #BAA193;
+    font-weight: 500;
+}
