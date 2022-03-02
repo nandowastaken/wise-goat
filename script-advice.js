@@ -9,9 +9,7 @@ function getAdvice() {
 function resizeImage() {
     let advice_container = document.querySelector('.advice-container');
     let advice_container_height = advice_container.clientHeight;
-    document.getElementById("goat-image").style.height = (advice_container_height - 100) + "px";
-
-    alert(document.getElementById("goat-image").clientHeight);
+    document.getElementById("goat-image").style.height = (advice_container_height - 50) + "px";
 }
 
 getAdvice(); 
