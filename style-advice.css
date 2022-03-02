@@ -22,9 +22,19 @@
     font-size: 45px;
 }
 
+.title a {
+    text-decoration: none;
+    color: #72005F;
+}
+
 .subtitle {
     color: #BAA193;
     font-size: 23px;
+}
+
+.subtitle a { 
+    text-decoration: none;
+    color: #BAA193;
 }
 
 .advice-container {
