@@ -17,10 +17,6 @@
     padding: 30px;
 }
 
-.main-text {
-    padding: 20px;
-}
-
 .title {
     color: #72005F;
     font-size: 45px;
@@ -34,20 +30,20 @@
 .advice-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    
-    background-color: #dbd6db;
-    margin: auto 20%;
-    padding: 60px 400px;
-    gap: 100px;
-    
 }
 
 .advice-text {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-end;
+
+    inline-size: 600px;
+    overflow-wrap: break-word;
+    padding: 150px 100px;
+    background-color: #dbd6db;
     
 }
 
@@ -55,7 +51,7 @@
     font-size: 30px;
     color: #72005F;
     font-weight: 800;
-    overflow: break-word;
+    
 }
 
 #author {
