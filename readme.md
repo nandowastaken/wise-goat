@@ -5,7 +5,7 @@
   <h3 align="center">WiseGoat by <a href="https://github.com/Lorenalgm">Lorena</a></h3>
  <br />
   <p align="center">
-     This is a website that generates random advices using Advice Slip JSON API.
+     This is a website that generates random advices using Advice Slip JSON API, made as a resolution to the challenge Wise Goat from DevChallenge. 
        <br />
     <br />
     <a href="https://github.com/devchallenge-io/wisegoat">Challenge</a>
